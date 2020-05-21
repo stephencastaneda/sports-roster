@@ -1,0 +1,104 @@
+{
+  "player1": {
+    "name": "Avery Bradley",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4240.png&w=350&h=254",
+    "position": "PG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player2": {
+    "name": "Rajon Rando",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3026.png&w=350&h=254",
+    "position": "PG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player3": {
+    "name": "Quinn Cook",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2566745.png&w=350&h=254",
+    "position": "PG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player4": {
+    "name": "Alex Caruso",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991350.png&w=350&h=254",
+    "position": "PG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player5": {
+    "name": "Danny Green",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3988.png&w=350&h=254",
+    "position": "SG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player6": {
+    "name": "K. Caldwell-Pope",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2581018.png&w=350&h=254",
+    "position": "SG",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player7": {
+    "name": "Dion Waiters",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6628.png&w=350&h=254",
+    "position": "SG",
+    "uid": "12345"
+  },
+  "player8": {
+    "name": "Talen Horton-Tucker",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396991.png&w=350&h=254",
+    "position": "SG",
+    "uid": "12345"
+  },
+  "player9": {
+    "name": "LeBron James",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254",
+    "position": "PF",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player10": {
+    "name": "Kyle Kuzma",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3134907.png&w=350&h=254",
+    "position": "PF",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player11": {
+    "name": "Jared Dudley",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3201.png&w=350&h=254",
+    "position": "PF",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player12": {
+    "name": "Markieff Morris",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6461.png&w=350&h=254",
+    "position": "PF",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player13": {
+    "name": "Kostas Antetokounmpo",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066490.png&w=350&h=254",
+    "position": "PF",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player14": {
+    "name": "Devontae Cacok",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3946974.png&w=350&h=254",
+    "position": "C",
+    "uid": "12345"
+  },
+  "player15": {
+    "name": "Anthony Davis",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png&w=350&h=254https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png&w=350&h=254",
+    "position": "C",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player16": {
+    "name": "JaVale McGee",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3452.png&w=350&h=254",
+    "position": "C",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  },
+  "player17": {
+    "name": "Dwight Howard",
+    "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2384.png&w=350&h=254",
+    "position": "C",
+    "uid": "hmmk1kcP41UmprVUMSRX06b73Gs1"
+  }
+}
