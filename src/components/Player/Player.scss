@@ -5,3 +5,19 @@
 .player-card {
   background-color: #000000;
 }
+
+.delete-player-btn{
+  display: none;
+}
+.player-card-ind:hover .delete-player-btn {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px;
+  display: inline-block;
+}
+
+.delete-player-btn:hover{
+ color:red !important;
+}
