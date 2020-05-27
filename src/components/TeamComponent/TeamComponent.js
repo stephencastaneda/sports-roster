@@ -30,6 +30,11 @@ class TeamComponent extends React.Component {
       .catch((err) => console.error('could not delete player: ', err));
   }
 
+  saveNewPlayer = (newPlayer) => {
+    console.log('new from team Component', newPlayer);
+  }
+
+
   render() {
     const { players, formOpen } = this.state;
 
@@ -38,8 +43,8 @@ class TeamComponent extends React.Component {
     return (
       <div className="TeamComponent">
         <h1 className="mt-3 mb-3 text-white">LOS ANGELES LAKERS</h1>
-        <button className="btn btn-warning mb-4" onClick={() => this.setState({ formOpen: true })}><i class="fas fa-user-plus"></i></button>
-        { formOpen ? <PlayerForm /> : ''}
+        <button className="btn btn-warning mb-4" onClick={() => this.setState({ formOpen: true })}><i className="fas fa-user-plus"></i></button>
+        { formOpen ? <PlayerForm saveNewPlayer={this.saveNewPlayer}/> : ''}
         <div className="d-flex flex-wrap">
           {makePlayers}
         </div>
