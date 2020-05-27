@@ -21,3 +21,13 @@
 .delete-player-btn:hover{
  color:red !important;
 }
+
+.card-img-top{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.delete-player-btn {
+  font-size: 25px;
+}
