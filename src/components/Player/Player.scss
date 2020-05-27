@@ -5,3 +5,29 @@
 .player-card {
   background-color: #000000;
 }
+
+.delete-player-btn{
+  display: none;
+}
+.player-card-ind:hover .delete-player-btn {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px;
+  display: inline-block;
+}
+
+.delete-player-btn:hover{
+ color:red !important;
+}
+
+.card-img-top{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.delete-player-btn {
+  font-size: 25px;
+}
