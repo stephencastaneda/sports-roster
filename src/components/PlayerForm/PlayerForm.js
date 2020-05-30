@@ -13,6 +13,19 @@ class PlayerForm extends React.Component {
     name: '',
     position: '',
     imageUrl: '',
+    isEditing: false,
+  }
+
+  componentDidMount() {
+    const { player } = this.props;
+    if (player.name) {
+      this.setState({
+        name: player.name,
+        position: player.position,
+        imageUrl: player.imageUrl,
+        isEditing: true,
+      });
+    }
   }
 
   savePlayer = (e) => {
@@ -26,6 +39,19 @@ class PlayerForm extends React.Component {
       uid: authData.getUid(),
     };
     saveNewPlayer(newPlayer);
+  }
+
+  updatePlayer = (e) => {
+    e.preventDefault();
+    const { name, position, imageUrl } = this.state;
+    const { player, putPlayer } = this.props;
+    const updatedPlayer = {
+      name,
+      position,
+      imageUrl,
+      uid: authData.getUid(),
+    };
+    putPlayer(player.id, updatedPlayer);
   }
 
   nameChange = (e) => {
@@ -44,7 +70,9 @@ class PlayerForm extends React.Component {
   }
 
   render() {
-    const { name, position, imageUrl } = this.state;
+    const {
+      name, position, imageUrl, isEditing,
+    } = this.state;
 
     return (
       <div className="BoardForm">
@@ -82,7 +110,10 @@ class PlayerForm extends React.Component {
             onChange={this.imageUrlChange}
           />
         </div>
-        <button className="btn btn-dark" onClick={this.savePlayer}>Save Player</button>
+        {isEditing
+          ? <button className="btn btn-dark" onClick={this.updatePlayer}>Update Player</button>
+          : <button className="btn btn-dark" onClick={this.savePlayer}>Save Player</button>
+        }
       </form>
     </div>
     );
